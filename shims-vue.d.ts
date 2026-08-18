@@ -5,7 +5,7 @@ declare module '*.vue' {
   export default component
 }
 
-declare module '@boyzcf/vue3-time-line' {
+declare module '@cooldaya/vue3-time-line' {
   import { Plugin } from 'vue'
   const plugin: Plugin
   export default plugin
