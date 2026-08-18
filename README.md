@@ -16,7 +16,37 @@ or
 yarn add @cooldaya/vue3-time-line
 ```
 
-# 全局引入
+# 引入方式
+
+本组件同时支持「按需引入」和「全局引入」两种方式，任选其一即可。样式已通过插件内联注入到 JS 中，无需单独引入任何 CSS 文件。
+
+## 按需引入（推荐）
+
+本库只包含一个组件，推荐直接按需引入，作用域清晰、不占用全局命名空间，也能被打包工具做 tree-shaking。
+
+```vue
+<script setup>
+import { TimeLine } from '@cooldaya/vue3-time-line'
+</script>
+
+<template>
+  <TimeLine @timeChange="timeChange" />
+</template>
+```
+
+选项式 API 写法：
+
+```js
+import { TimeLine } from '@cooldaya/vue3-time-line'
+
+export default {
+  components: { TimeLine }
+}
+```
+
+## 全局引入
+
+如果多个页面都要用，或者想自定义全局注册的组件名，可以在入口文件以插件方式全局注册，注册后应用内任意模板都能直接使用 `<TimeLine />`，无需再逐个文件 `import`。
 
 ```js
 // main.js
@@ -27,6 +57,7 @@ import TimeLine from '@cooldaya/vue3-time-line'
 
 const app = createApp(App)
 
+// comName 可选，用于自定义全局组件名，默认为 'TimeLine'
 app.use(TimeLine, { comName: 'TimeLine' })
 app.mount('#app')
 ```
