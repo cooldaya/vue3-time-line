@@ -1,6 +1,6 @@
 {
   "name": "@cooldaya/vue3-time-line",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "一个基于Vue3的时间轴组件，一般用于监控视频的回放",
   "main": "./lib/vue3-time-line.umd.js",
   "module": "./lib/vue3-time-line.mjs",
