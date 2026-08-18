@@ -10,7 +10,7 @@
       <component :is="defaultData.activeComp"></component>
     </div>
     <div>
-      <a href="https://github.com/gitboyzcf/vue3-time-line/blob/master/src/views">demo源码</a>
+      <a href="https://github.com/cooldaya/vue3-time-line/blob/master/src/views">demo源码</a>
     </div>
   </div>
 </template>

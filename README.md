@@ -4,14 +4,16 @@
 
 > [Vue2 版本请点击](https://github.com/wanglin2/VideoTimeLine)
 
+> **说明**：本仓库 fork 自原作者 [boyzcf](https://github.com/gitboyzcf) 的 [gitboyzcf/vue3-time-line](https://github.com/gitboyzcf/vue3-time-line)，仅处理了原有的打包发布相关问题，并以新包名 `@cooldaya/vue3-time-line` 发布到 npm。组件的核心功能与实现均归功于原作者，特此致谢。
+
 # 安装
 
 ```bash
-npm install @boyzcf/vue3-time-line
+npm install @cooldaya/vue3-time-line
 or
-pnpm install @boyzcf/vue3-time-line
+pnpm install @cooldaya/vue3-time-line
 or
-yarn add @boyzcf/vue3-time-line
+yarn add @cooldaya/vue3-time-line
 ```
 
 # 全局引入
@@ -21,7 +23,7 @@ yarn add @boyzcf/vue3-time-line
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import TimeLine from '@boyzcf/vue3-time-line'
+import TimeLine from '@cooldaya/vue3-time-line'
 
 const app = createApp(App)
 

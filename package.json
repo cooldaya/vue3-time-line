@@ -16,7 +16,7 @@
   },
   "keywords": [
     "vue3",
-    "@boyzcf/vue3-time-line",
+    "@cooldaya/vue3-time-line",
     "canvas",
     "timeline",
     "time axis",
@@ -66,10 +66,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gitboyzcf/vue3-time-line.git"
+    "url": "https://github.com/cooldaya/vue3-time-line.git"
   },
   "bugs": {
-    "url": "https://github.com/gitboyzcf/vue3-time-line/issues"
+    "url": "https://github.com/cooldaya/vue3-time-line/issues"
   },
   "publishConfig": {
     "access": "public",
